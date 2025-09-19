@@ -1,0 +1,164 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header.navbar {
+      background-color: #1877f2;
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .cover-photo {
+      width: 100%;
+      height: 200px;
+      background-color: #ccc; /* placeholder */
+    }
+
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: -75px;
+      margin-left: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .profile-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      margin-top: -40px;
+    }
+
+    .profile-info {
+      margin-left: 10px;
+    }
+
+    .profile-info h1 {
+      margin-left: 180px;
+      margin-top: -30px;
+    }
+
+    .friends {
+      color: gray;
+      font-size: 14px;
+      margin-top: -20px;
+     
+    }
+
+    .profile-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: -50px;
+
+    }
+
+    .profile-actions button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #1877f2;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .nav {
+      display: flex;
+      list-style: none;
+      padding: 20px;
+      margin: 20px;
+      border-top: 1px solid #ccc;
+      color: black;
+      background-color: none;
+      border-bottom: 2px solid grey;
+    }
+
+    .nav li {
+      margin-right: 20px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #4d4646;
+      font-weight: 500px;
+      font-size: 15px;
+      margin-right: 10px;
+      margin-left: 20px;
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .details{
+      padding: 100px;
+      background-color: rgb(233, 224, 224);
+      display: flex;
+
+    }
+    .lock{
+      margin-left: -50px;
+      padding: 20px;
+      background-color: #1877f2;
+      height: 20px;
+      width: 300px;
+      border-radius: 5px;
+      margin-top: -50px;
+    }
+    .lock p{
+      color: rgb(0, 0, 0);
+      margin-top: 2px;
+      margin-left: 12q  0px;
+    }
+    .info{
+      margin-left: -340px;
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #eaeef2;
+      height: 200px;
+      width: 300px;
+      border-radius: 5px;
+    
+    }
+
+    
+  .info table th{
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 250px;
+  display: flex;
+  margin-left: -100%;
+}
+
+
+ .info table th {
+  color: rgb(0, 0, 0);
+  background-color: #ccc;
+  height: 40px;
+  width: 250px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: flex;             /* gagamit ng flexbox */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+}
+
+
+.info table td{
+  color: rgb(0, 0, 0);
+  background-color: #ccc;
+  height: 40px;
+  width: 250px;
+  margin-left: 20px;
+  display: flex;             /* gagamit ng flexbox */
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  margin-top: 30px;   
+  border-radius: 5px; 
+}
